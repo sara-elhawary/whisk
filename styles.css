@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Kanit:ital,wght@0,400;1,500&display=swap');
+
+/* font-family: 'Caveat Brush', cursive; */                                                                                                                                                
+
+
+@font-face {
+    font-family: 'autumn_in_novemberregular';
+    src: url('./assets/fonts/webfontkit-20220119-041718/autumn_in_november-webfont.woff2') format('woff2'),
+         url('./assets/fonts/webfontkit-20220119-041718/autumn_in_november-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:monospace;
+}
+.body-inner{
+    /* position:relative; */
+}
+.top-bar{
+    /* padding:8px 0; */
+    /* border:red solid 1px; */
+
+    /* position:relative; */
+    background-color: rgba(236, 238, 240, 0.863);
+    /* box-shadow:0 0 5px rgb(175, 175, 175); */
+}
+.top-bar ul{
+    list-style:none;
+    /* border:red solid 1px; */
+
+}
+.container{
+    /* position: relative; */
+    /* z-index:5;*/
+    text-align:center;
+    /* border:red solid 1px; */
+
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.top-info{
+    /* border:red solid 1px; */
+    color: #7a7878;
+    /* border:red solid 1px; */
+
+
+}
+.top-info li{
+    display:inline-block;
+    position:relative;
+    top:2px;
+    margin-left:0;
+    line-height:10px;
+    /* padding-right:225px; */
+    font-size: 18px ;
+    /* border:red solid 1px; */
+
+}
+
+
+.top-info p{
+    display:inline-block;
+    line-height:normal;
+    flex-direction:column;
+    margin:0;
+    /* border:red solid 1px; */
+
+
+}
+
+.social{
+    margin-right:50px;
+    /* border:red solid 1px; */
+
+}
+.social li{
+    /* display: inline-block; */
+    padding:0;
+    margin-right:10px;
+    display:flex;
+    gap:6px;
+    /* border:red solid 1px; */
+
+}
+.social li a {
+    /* color: #7c7c7c; */
+    font-size: 18px;
+    transition: 400ms;
+    padding: 9px 12px;
+    
+  }
+
+  /************************************************NavBar***************************************************/
+  .logo-heading{
+    font-family: 'autumn_in_novemberregular';
+    font-size:3em;
+  }
+  header{
+      padding:12px 0 0;
+      border:red solid 1px;
+  }
+
+
+  .dropdown-toggle::after {
+    display: none;
+}
