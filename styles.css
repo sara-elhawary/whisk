@@ -168,11 +168,8 @@ a{
   padding-left:0;
 }
 
-.jumbotron-2{
+.divider-2{
   background-color:black;
-}
-.jumbotron-2-start{
-  background-color:pink;
 }
 
 .bg-d{
@@ -219,4 +216,18 @@ footer{
   background-color: #3cc794;
 }
 
+
+
+@media (max-width: 767px) {
+  .fixed-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
+}
   
